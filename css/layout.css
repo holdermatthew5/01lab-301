@@ -1,0 +1,11 @@
+p {
+  width: 480px;
+  height: 125px;
+  margin: auto;
+  background-color: lightgray;
+  border: 3px solid darkgray;
+}
+
+section {
+  height: 250px;
+}

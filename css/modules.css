@@ -1,0 +1,25 @@
+header p {
+  height: 75px;
+}
+
+main:first-child {
+  height: 150px;
+}
+
+section p {
+  width: 240px;
+  height:250px;
+  display: inline-block;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+footer p {
+  height: 80px;
+}
