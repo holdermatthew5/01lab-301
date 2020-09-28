@@ -1,25 +1,57 @@
-header p {
-  height: 75px;
+@media screen and (max-width: 768px) {
+  header p {
+    height: 75px;
+    line-height: 450%;
+  }
+
+  #p1 {
+    height: 150px;
+    line-height: 900%;
+  }
+
+  section p {
+    width: 235px;
+    height:250px;
+    display: inline-block;
+    line-height: 1500%;
+  }
+
+  .left {
+    float: left;
+    width: 234px;
+    border-left: 3px solid darkgray;
+    margin-left: 1px;
+  }
+
+  .right {
+    float: right;
+  }
+
+  footer p {
+    height: 80px;
+    line-height: 500%;
+  }
 }
 
-main:first-child {
-  height: 150px;
-}
+@media screen and (min-width: 768px) {
+  header p {
+    width: 960px;
+    height: 100px;
+  }
 
-section p {
-  width: 240px;
-  height:250px;
-  display: inline-block;
-}
+  #p1 {
+    float: left;
+    width: 200px;
+    height: 600px;
+  }
 
-.left {
-  float: left;
-}
+  section p {
+    width: 190px;
+    height: 250px;
+  }
 
-.right {
-  float: right;
-}
-
-footer p {
-  height: 80px;
+  footer {
+    width: 760px;
+    height: 150px;
+  }
 }
