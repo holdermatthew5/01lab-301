@@ -1,9 +1,6 @@
 @media screen and (max-width: 768px) {
-  * {
-    text-align: center;
-  }
-
   body {
+    text-align: center;
     width: 482px;
     margin: auto;
   }
