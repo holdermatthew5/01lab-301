@@ -2,34 +2,41 @@
   header p {
     height: 75px;
     line-height: 450%;
+    border: 2px solid darkgray;
+    border-bottom: 1px solid darkgray;
   }
 
-  #p1 {
-    height: 150px;
-    line-height: 900%;
+  #s1 p {
+    width: 476px;
+    height:121px;
+    line-height: 750%;
   }
 
-  section p {
-    width: 235px;
-    height:250px;
-    display: inline-block;
+  #d1, #d2 {
+    clear: both;
+    height: 248px;}
+
+  div p {
+    float: left;
+    width: 237px;
+    height: 246px;
     line-height: 1500%;
   }
 
   .left {
-    float: left;
-    width: 234px;
-    border-left: 3px solid darkgray;
     margin-left: 1px;
+    border-right: 1px solid darkgray;
   }
 
   .right {
-    float: right;
+    border-left: 1px solid darkgray;
   }
 
   footer p {
     height: 80px;
     line-height: 500%;
+    border-bottom: 2px solid darkgray;
+    margin-bottom: 2px;
   }
 }
 
@@ -37,21 +44,34 @@
   header p {
     width: 956px;
     height: 97px;
-    border-top: 2px solid darkgray;
-    border-right: 2px solid darkgray;
-    border-bottom: 1px solid darkgray;
-    border-left: 2px solid darkgray;
+    border-bottom: 0px solid darkgray;
+    line-height: 550%;
   }
 
-  #p1 {
+  #s1 p {
+    width: 378px;
+    border-left: 0px;
+    height: 196px;
+    line-height: 1200%;
+  }
+
+  div {
     float: left;
-    width: 197px;
-    height: 597px;
-    border-top: 1px solid darkgray;
-    border-right: 1px solid darkgray;
-    border-bottom: 2px solid darkgray;
-    border-left: 2px solid darkgray;
   }
 
+  div p {
+    width: 188px;
+    border-left: 0px;
+    border-top: 0px;
+    height: 248px;
+    line-height: 1550%;
+  }
 
+  footer p {
+    width: 758px;
+    height: 148px;
+    border-top: 0px;
+    border-left: 0px;
+    line-height: 950%;
+  }
 }
