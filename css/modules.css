@@ -2,14 +2,23 @@
   header p {
     height: 75px;
     line-height: 450%;
-    border: 2px solid darkgray;
-    border-bottom: 1px solid darkgray;
+    border: 2px solid black;
+    border-bottom: 1px solid black;
+    background-color: darkgreen;
   }
 
   #s1 p {
     width: 476px;
     height:121px;
     line-height: 750%;
+  }
+
+  #s1 p:first-of-type {
+    background-color: darkkhaki;
+  }
+
+  #s1 p:last-of-type {
+    background-color: darkmagenta;
   }
 
   #d1, #d2 {
@@ -25,18 +34,34 @@
 
   .left {
     margin-left: 1px;
-    border-right: 1px solid darkgray;
+    border-right: 1px solid black;
+  }
+
+  #d1 .left {
+    background-color: darkorange;
+  }
+
+  #d2 .left {
+    background-color: darkorchid;
   }
 
   .right {
-    border-left: 1px solid darkgray;
+    border-left: 1px solid black;
+  }
+
+  #d1 .right {
+    background-color: darkred;
+  }
+  #d2 .right {
+    background-color: darksalmon;
   }
 
   footer p {
     height: 80px;
     line-height: 500%;
-    border-bottom: 2px solid darkgray;
+    border-bottom: 2px solid black;
     margin-bottom: 2px;
+    background-color: darkseagreen;
   }
 }
 
@@ -46,6 +71,7 @@
     height: 97px;
     border-bottom: 0px solid darkgray;
     line-height: 550%;
+    background-color: blanchedalmond;
   }
 
   #s1 p {
@@ -53,6 +79,14 @@
     border-left: 0px;
     height: 196px;
     line-height: 1200%;
+  }
+
+  #s1 p:first-of-type {
+    background-color: blue;
+  }
+
+  #s1 p:last-of-type {
+    background-color: blueviolet;
   }
 
   div {
@@ -67,11 +101,28 @@
     line-height: 1550%;
   }
 
+  #d1 .left {
+    background-color: burlywood;
+  }
+
+  #d1 .right {
+    background-color: cadetblue;
+  }
+
+  #d2 .left {
+    background-color: chartreuse;
+  }
+
+  #d2 .right {
+    background-color: chocolate;
+  }
+
   footer p {
     width: 758px;
     height: 148px;
     border-top: 0px;
     border-left: 0px;
     line-height: 950%;
+    background-color: coral;
   }
 }

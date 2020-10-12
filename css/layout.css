@@ -5,9 +5,9 @@
     margin: auto;
     line-height: 750%;
     background-color: lightgreen;
-    border: 2px solid darkgray;
-    border-bottom: 1px solid darkgray;
-    border-top: 1px solid darkgray;
+    border: 2px solid black;
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
   }
 
   section {
@@ -19,7 +19,7 @@
   p {
     width: 196px;
     height: 596px;
-    border: 2px solid darkgray;
+    border: 2px solid black;
     float: left;
     background-color: lightblue;
     line-height: 3300%;
